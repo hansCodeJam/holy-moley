@@ -49,3 +49,17 @@
   width: 100vw;
   background-color: #f08a4b;
 }
+
+@media (max-width: 300px) {
+  #app {
+    flex-direction: column;
+  }
+
+  .rectangle {
+    flex-direction: column;
+  }
+
+  .square {
+    background-color: green;
+  }
+}
